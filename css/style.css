@@ -41,3 +41,11 @@ img{
 ._bg-color .star::after,._bg-color .star::before{
     background-color: white;
 }
+
+.__fix-p{
+    padding: 1rem 1.2rem;
+}
+
+.color{
+    color: #1abc9c;
+}
