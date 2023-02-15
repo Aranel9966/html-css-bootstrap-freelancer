@@ -2,11 +2,6 @@
     background-color: #1abc9c;
 }
 
-._img-header{
-    width: 200px;
-    height: 200px;
-}
-
 img{
     width: 100%;
     height: 100%;
@@ -21,6 +16,8 @@ img{
     
 }
 
+/* separetor icon star */
+
 .star::after{
     content: '';
     background-color: black;
@@ -29,19 +26,21 @@ img{
     border-radius: 4px;
     
 }
+
 .star::before{
     content: '';
     background-color: black;
     height: 7px;
     width: 200px;
     border-radius: 4px;
-
-    
+   
 }
+
 ._bg-color .star::after,._bg-color .star::before{
     background-color: white;
 }
 
+/* fix padding icon */
 .__fix-p{
     padding: 1rem 1.2rem;
 }
